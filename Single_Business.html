@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spark</title>
+    <link rel="stylesheet" href="./style/single_business_style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/single_style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo">
+        <img src="./image/Logo.png" alt="" />
+      </div>
+      <ul>
+        <li>
+          <a href="#">
+            <i class="bi bi-person-rolodex"></i>
+            <p>Clients</p>
+          </a>
+        </li>
+        <li style="border-left: 3px solid #521616">
+          <a href="#">
+            <i class="bi bi-briefcase" style="color: #521616"></i>
+            <p style="color: #521616">Business Lines</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-calendar-week"></i>
+            <p>Projects</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-ui-checks"></i>
+            <p>Tasks</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-file-earmark-text"></i>
+            <p>Pages</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-building-gear"></i>
+            <p>Tickets / Authorizations</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-stack"></i>
+            <p>Templates</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-database"></i>
+            <p>Knowledge Base</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-gear"></i>
+            <p>Settings</p>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bi bi-people"></i>
+            <p>Users</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="logout" style="border-bottom: 1px solid #ccc">
+            <i class="bi bi-box-arrow-right"></i>
+            <p>Logout</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="header">
+        <div class="title">
+          <div>
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+          <div class="navbar-setting">
+            <div class="new_client">
+              <i class="bi bi-pencil-square"></i>
+              <p>New Client</p>
+            </div>
+            <div class="system">
+              <i class="bi bi-person-gear"></i>
+              <p>Ststem</p>
+              <i class="bi bi-caret-down-fill"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main scroll-container">
+        <div class="main-title">
+          <div style="gap: 6px; display: flex; flex-direction: column">
+            <p>Business Line</p>
+            <h1>Single Business Line</h1>
+          </div>
+          <div
+            style="display: flex; justify-content: center; align-items: center"
+          >
+            <i
+              class="bi bi-plus-lg"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 24px;
+                height: 24px;
+                margin-right: 5px;
+                color: #521616;
+                cursor: pointer;
+              "
+            ></i>
+            <div class="circle-images-container">
+              <div class="circle-image">
+                <img src="./image/avatar/avatar.png" alt="Person 1" />
+                <div class="circle-image1">
+                  <img src="./image/avatar/avatar1.png" alt="Person 2" />
+                  <div class="circle-image2">
+                    <img src="./image/avatar/avatar2.png" alt="Person 3" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs-container">
+          <div class="tab-container">
+            <div class="tabs">
+              <button class="tab active">General</button>
+              <button class="tab">Reply</button>
+              <button class="tab">Notes</button>
+              <button class="tab">Documents</button>
+              <button class="tab">Comments</button>
+            </div>
+            <div class="line">
+              <div class="line-1"></div>
+            </div>
+          </div>
+          <div class="search-container">
+            <div
+              style="
+                width: 100%;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 36px;
+                margin-bottom: 20px;
+              "
+            >
+              <span style="font-size: 12px; font-weight: 400">
+                <i
+                  class="bi bi-calendar-date"
+                  style="margin-right: 10px; font-size: 14px; font-weight: 400"
+                ></i>
+                Created on 27 November 2024 09:44 pm
+              </span>
+              <span style="font-size: 12px; font-weight: 400">
+                <i
+                  class="bi bi-calendar-date"
+                  style="margin-right: 10px; font-size: 14px; font-weight: 400"
+                ></i>
+                Created on 27 November 2024 09:44 pm
+              </span>
+            </div>
+            <h3>Client</h3>
+            <div class="search-form">
+              <div
+                style="
+                  display: flex;
+                  justify-content: start;
+                  width: 100%;
+                  align-items: center;
+                  padding-left: 3px;
+                "
+              >
+                <p style="font-size: 12px; font-weight: 400; color: #363435">
+                  J|
+                </p>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: start;
+                  width: 100%;
+                  align-items: center;
+                  padding-left: 3px;
+                  font-size: 12px;
+                  color: #55668180;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 5px;
+                  "
+                >
+                  <img src="./image/icon/name.png" alt="" />
+                </div>
+                <span>Jhon</span>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: start;
+                  width: 100%;
+                  align-items: center;
+                  padding-left: 3px;
+                  font-size: 12px;
+                  color: #55668180;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 5px;
+                  "
+                >
+                  <img src="./image/icon/name.png" alt="" />
+                </div>
+                <span>Jordan</span>
+              </div>
+              <div
+                style="
+                  display: flex;
+                  justify-content: start;
+                  width: 100%;
+                  align-items: center;
+                  padding-left: 3px;
+                  font-size: 12px;
+                  color: #55668180;
+                "
+              >
+                <div
+                  style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 5px;
+                  "
+                >
+                  <img src="./image/icon/name.png" alt="" />
+                </div>
+                <span>Jerry</span>
+              </div>
+            </div>
+            <div class="staff-table-container">
+              <table class="staff-table">
+                <thead>
+                  <tr>
+                    <th
+                      style="
+                        border-radius: 5px 0 0 5px;
+                        text-align: center;
+                        width: 200px;
+                      "
+                    >
+                      Staff
+                    </th>
+                    <th style="text-align: center; width: 200px">Name</th>
+                    <th style="width: 200px; text-align: center">Email</th>
+                    <th style="width: 200px; text-align: center">Contact</th>
+                    <th
+                      style="
+                        border-radius: 0 7px 7px 0;
+                        width: 150px;
+                        text-align: center;
+                      "
+                    >
+                      <button class="add-staff-btn" onclick="openStaffModal()">
+                        + Add Staff
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table-data">Name</td>
+                    <td class="table-data">Staff Position</td>
+                    <td class="table-data">Staff Email</td>
+                    <td class="table-data">Staff Contact</td>
+                    <td class="table-data">
+                      <div class="action-buttons">
+                        <button class="edit">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="delete">
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="table-data">Name</td>
+                    <td class="table-data">Staff Position</td>
+                    <td class="table-data">Staff Email</td>
+                    <td class="table-data">Staff Contact</td>
+                    <td class="table-data">
+                      <div class="action-buttons">
+                        <button class="edit">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="delete">
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="table-data">Name</td>
+                    <td class="table-data">Staff Position</td>
+                    <td class="table-data">Staff Email</td>
+                    <td class="table-data">Staff Contact</td>
+                    <td class="table-data">
+                      <div class="action-buttons">
+                        <button class="edit">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="delete">
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="staff-table-container">
+              <table class="staff-table">
+                <thead>
+                  <tr>
+                    <th
+                      style="
+                        border-radius: 5px 0 0 5px;
+                        text-align: center;
+                        width: 500px;
+                      "
+                    >
+                      Documents
+                    </th>
+                    <th style="width: 400px; text-align: center">
+                      <div
+                        style="
+                          display: flex;
+                          justify-content: center;
+                          align-items: center;
+                          cursor: pointer;
+                        "
+                      >
+                        <span> Document Type </span>
+                        <div
+                          style="
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: column;
+                            margin-left: 14px;
+                          "
+                        >
+                          <i
+                            class="bi bi-caret-up-fill"
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                            "
+                          ></i>
+                          <i
+                            class="bi bi-caret-down-fill"
+                            style="
+                              display: flex;
+                              justify-content: center;
+                              align-items: center;
+                            "
+                          ></i>
+                        </div>
+                      </div>
+                    </th>
+                    <th
+                      style="
+                        border-radius: 0 7px 7px 0;
+                        width: 200px;
+                        text-align: center;
+                      "
+                    >
+                      <button
+                        class="add-staff-btn"
+                        onclick="openDocumentModal()"
+                      >
+                        + Add Document
+                      </button>
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table-data">Document</td>
+                    <td class="table-data">
+                      <img src="./image/icon/Mark3.png" alt="" />
+                    </td>
+                    <td class="table-data">
+                      <div class="action-buttons">
+                        <button class="edit">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="delete">
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="table-data">Document</td>
+                    <td class="table-data">
+                      <img src="./image/icon/Mask4.png" alt="" />
+                    </td>
+                    <td class="table-data">
+                      <div class="action-buttons">
+                        <button class="edit">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="delete">
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="table-data">Document</td>
+                    <td class="table-data">
+                      <img src="./image/icon/Mask4.png" alt="" />
+                    </td>
+                    <td class="table-data">
+                      <div class="action-buttons">
+                        <button class="edit">
+                          <i class="bi bi-pencil-square"></i>
+                        </button>
+                        <button class="delete">
+                          <i class="bi bi-trash3"></i>
+                        </button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="button-container">
+              <button class="submit-btn">Save</button>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 11px;
+          "
+        >
+          <div class="staff-table-container">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                background-color: #ffffff;
+                border-radius: 5px 5px 0 0;
+                border: 1px solid #ccc;
+              "
+            >
+              <p
+                style="
+                  font-size: 14px;
+                  font-weight: 900;
+                  font-weight: 900;
+                  color: #363435;
+                "
+              >
+                Projects
+              </p>
+            </div>
+            <table class="staff-table" style="background-color: #ffffff">
+              <thead>
+                <tr>
+                  <th
+                    style="
+                      border-radius: 5px 0 0 5px;
+                      text-align: center;
+                      width: 200px;
+                      background: none;
+                      padding: 15px;
+                    "
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <span
+                        style="
+                          color: #363435;
+                          font-size: 14px;
+                          font-weight: 900;
+                        "
+                        >Project List</span
+                      >
+                      <div
+                        style="
+                          display: contents;
+                          justify-content: center;
+                          align-items: center;
+                          margin-left: 10px;
+                        "
+                      >
+                        <img
+                          src="./image/icon/down-up.png"
+                          style="margin-left: 10px"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </th>
+                  <th
+                    style="
+                      width: 300px;
+                      text-align: center;
+                      background: none;
+                      color: #363435;
+                      font-size: 14px;
+                      font-weight: 900;
+                      padding: 15px;
+                    "
+                  >
+                    Assigned to
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-data" style="background: none">
+                    Project Name
+                  </td>
+                  <td
+                    class="table-data"
+                    style="
+                      justify-content: center;
+                      align-items: center;
+                      background: none;
+                    "
+                  >
+                    <div class="circle-images-container">
+                      <div class="circle-image">
+                        <img src="./image/avatar/avatar.png" alt="Person 1" />
+                        <div class="circle-image1">
+                          <img
+                            src="./image/avatar/avatar1.png"
+                            alt="Person 2"
+                          />
+                          <div class="circle-image2">
+                            <img
+                              src="./image/avatar/avatar2.png"
+                              alt="Person 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="action-buttons" style="width: inherit">
+                      <button class="edit">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                      <button class="delete">
+                        <i class="bi bi-trash3"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-data" style="background: none">
+                    Project Name
+                  </td>
+                  <td
+                    class="table-data"
+                    style="
+                      justify-content: center;
+                      align-items: center;
+                      background: none;
+                    "
+                  >
+                    <div class="circle-images-container">
+                      <div class="circle-image">
+                        <img src="./image/avatar/avatar.png" alt="Person 1" />
+                        <div class="circle-image1">
+                          <img
+                            src="./image/avatar/avatar1.png"
+                            alt="Person 2"
+                          />
+                          <div class="circle-image2">
+                            <img
+                              src="./image/avatar/avatar2.png"
+                              alt="Person 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="action-buttons" style="width: inherit">
+                      <button class="edit">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                      <button class="delete">
+                        <i class="bi bi-trash3"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-data" style="background: none">
+                    Project Name
+                  </td>
+                  <td
+                    class="table-data"
+                    style="
+                      justify-content: center;
+                      align-items: center;
+                      background: none;
+                    "
+                  >
+                    <div class="circle-images-container">
+                      <div class="circle-image">
+                        <img src="./image/avatar/avatar.png" alt="Person 1" />
+                        <div class="circle-image1">
+                          <img
+                            src="./image/avatar/avatar1.png"
+                            alt="Person 2"
+                          />
+                          <div class="circle-image2">
+                            <img
+                              src="./image/avatar/avatar2.png"
+                              alt="Person 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="action-buttons" style="width: inherit">
+                      <button class="edit">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                      <button class="delete">
+                        <i class="bi bi-trash3"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="staff-table-container">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                padding: 20px;
+                background-color: #ffffff;
+                border-radius: 5px 5px 0 0;
+                border: 1px solid #ccc;
+              "
+            >
+              <p
+                style="
+                  font-size: 14px;
+                  font-weight: 900;
+                  font-weight: 900;
+                  color: #363435;
+                "
+              >
+                Tasks
+              </p>
+            </div>
+            <table class="staff-table" style="background-color: #ffffff">
+              <thead>
+                <tr>
+                  <th
+                    style="
+                      border-radius: 5px 0 0 5px;
+                      text-align: center;
+                      width: 200px;
+                      background: none;
+                      padding: 15px;
+                    "
+                  >
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                      "
+                    >
+                      <span
+                        style="
+                          color: #363435;
+                          font-size: 14px;
+                          font-weight: 900;
+                        "
+                        >Tasks List</span
+                      >
+                      <div
+                        style="
+                          display: contents;
+                          justify-content: center;
+                          align-items: center;
+                          margin-left: 10px;
+                        "
+                      >
+                        <img
+                          src="./image/icon/down-up.png"
+                          style="margin-left: 10px"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </th>
+                  <th
+                    style="
+                      width: 300px;
+                      text-align: center;
+                      background: none;
+                      color: #363435;
+                      font-size: 14px;
+                      font-weight: 900;
+                      padding: 15px;
+                    "
+                  >
+                    Assigned to
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="table-data" style="background: none">Task Name</td>
+                  <td
+                    class="table-data"
+                    style="
+                      justify-content: center;
+                      align-items: center;
+                      background: none;
+                    "
+                  >
+                    <div class="circle-images-container">
+                      <div class="circle-image">
+                        <img src="./image/avatar/avatar.png" alt="Person 1" />
+                        <div class="circle-image1">
+                          <img
+                            src="./image/avatar/avatar1.png"
+                            alt="Person 2"
+                          />
+                          <div class="circle-image2">
+                            <img
+                              src="./image/avatar/avatar2.png"
+                              alt="Person 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="action-buttons" style="width: inherit">
+                      <button class="edit">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                      <button class="delete">
+                        <i class="bi bi-trash3"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-data" style="background: none">Task Name</td>
+                  <td
+                    class="table-data"
+                    style="
+                      justify-content: center;
+                      align-items: center;
+                      background: none;
+                    "
+                  >
+                    <div class="circle-images-container">
+                      <div class="circle-image">
+                        <img src="./image/avatar/avatar.png" alt="Person 1" />
+                        <div class="circle-image1">
+                          <img
+                            src="./image/avatar/avatar1.png"
+                            alt="Person 2"
+                          />
+                          <div class="circle-image2">
+                            <img
+                              src="./image/avatar/avatar2.png"
+                              alt="Person 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="action-buttons" style="width: inherit">
+                      <button class="edit">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                      <button class="delete">
+                        <i class="bi bi-trash3"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="table-data" style="background: none">Task Name</td>
+                  <td
+                    class="table-data"
+                    style="
+                      justify-content: center;
+                      align-items: center;
+                      background: none;
+                    "
+                  >
+                    <div class="circle-images-container">
+                      <div class="circle-image">
+                        <img src="./image/avatar/avatar.png" alt="Person 1" />
+                        <div class="circle-image1">
+                          <img
+                            src="./image/avatar/avatar1.png"
+                            alt="Person 2"
+                          />
+                          <div class="circle-image2">
+                            <img
+                              src="./image/avatar/avatar2.png"
+                              alt="Person 3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="action-buttons" style="width: inherit">
+                      <button class="edit">
+                        <i class="bi bi-pencil-square"></i>
+                      </button>
+                      <button class="delete">
+                        <i class="bi bi-trash3"></i>
+                      </button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="staffModal">
+      <div class="modal-content">
+        <h2>ADD STAFF</h2>
+        <div class="staff-form">
+          <label for="staff-name">Staff Name</label>
+          <input
+            type="text"
+            id="staff-name"
+            placeholder="Staff Name"
+            required
+          />
+
+          <label for="staff-title">Title</label>
+          <input
+            type="text"
+            id="staff-title"
+            placeholder="Staff Position"
+            required
+          />
+
+          <label for="staff-email">Email</label>
+          <input
+            type="email"
+            id="staff-email"
+            placeholder="example@email.com"
+            required
+          />
+
+          <label for="staff-contact">Contact</label>
+          <input
+            type="text"
+            id="staff-contact"
+            placeholder="123 456 789 10"
+            required
+          />
+
+          <button type="submit" class="save-btn">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="document-modal" id="documentModal">
+      <div class="modal-content">
+        <h2>ADD DOCUMENTS</h2>
+        <div class="document-form">
+          <div
+            class="form-group"
+            style="gap: 9px; display: flex; flex-direction: column"
+          >
+            <label for="upload">Document Folder</label>
+            <div class="document-upload-container">
+              <label for="document-upload" class="document-upload-label">
+                <span style="color: #55668180">Document Folder</span>
+                <div class="upload-icon">
+                  <i
+                    class="bi bi-image"
+                    style="font-size: 20px; color: #55668180"
+                  ></i>
+                </div>
+                <input
+                  type="file"
+                  id="document-upload"
+                  class="document-upload-input"
+                  accept="image/*"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            class="form-group"
+            style="gap: 9px; display: flex; flex-direction: column"
+          >
+            <label for="upload">Document Folder</label>
+            <div class="document-upload-container">
+              <label for="document-upload" class="document-upload-label">
+                <span style="color: #55668180">Document Folder</span>
+                <div class="upload-icon">
+                  <i
+                    class="bi bi-image"
+                    style="font-size: 20px; color: #55668180"
+                  ></i>
+                </div>
+                <input
+                  type="file"
+                  id="document-upload"
+                  class="document-upload-input"
+                  accept="image/*"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            class="form-group"
+            style="gap: 9px; display: flex; flex-direction: column"
+          >
+            <label for="upload">Document Folder</label>
+            <div class="document-upload-container">
+              <label for="document-upload" class="document-upload-label">
+                <span style="color: #55668180">Document Folder</span>
+                <div class="upload-icon">
+                  <i
+                    class="bi bi-image"
+                    style="font-size: 20px; color: #55668180"
+                  ></i>
+                </div>
+                <input
+                  type="file"
+                  id="document-upload"
+                  class="document-upload-input"
+                  accept="image/*"
+                />
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="document-save-btn">Save</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="businessModal">
+      <div class="modal-content">
+        <h2>ADD BUSINESSLINE</h2>
+        <div class="staff-form">
+          <label for="staff-name">Business Line</label>
+          <input
+            type="text"
+            id="staff-name"
+            placeholder="Business Line"
+            required
+          />
+
+          <label for="staff-title">Assigned to</label>
+          <input
+            type="text"
+            id="staff-title"
+            placeholder="Assigned to"
+            required
+          />
+
+          <label for="staff-email">Email</label>
+          <input
+            type="email"
+            id="staff-email"
+            placeholder="example@email.com"
+            required
+          />
+
+          <label for="staff-contact">Contact</label>
+          <input
+            type="text"
+            id="staff-contact"
+            placeholder="123 456 789 10"
+            required
+          />
+
+          <button type="submit" class="save-btn">Save</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  // Open staff modal
+  function openStaffModal() {
+    document.getElementById("staffModal").style.display = "flex";
+  }
+
+  // Open document modal
+  function openDocumentModal() {
+    document.getElementById("documentModal").style.display = "flex";
+  }
+
+  // Open business modal
+  function openBusinessModal() {
+    document.getElementById("businessModal").style.display = "flex";
+  }
+
+  // Close modals
+  function closeModal(modalId) {
+    document.getElementById(modalId).style.display = "none";
+  }
+
+  // Global event listener to close modal on outside click
+  window.onclick = function (event) {
+    const modals = ["staffModal", "documentModal", "businessModal"];
+    modals.forEach((modalId) => {
+      const modal = document.getElementById(modalId);
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+  };
+</script>
